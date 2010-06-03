@@ -1,0 +1,1871 @@
+<style type="text/css">
+<!--
+#bowling table { border-collapse: collapse;	}
+#bowling td { width: 40; height: 40; font-family: sans-serif;
+font-size: medium; text-align: center; border: thin solid Black; }
+#bowling td.scoredcell { background: Yellow; }
+#bowling td.pendingcell { background: transparent; }
+#bowling td.activecell { background: Aqua; }
+#bowling td.emptycell {	background: transparent; }
+#bowling p { font-family: sans-serif; }
+#bowling td.bdet { width: 16; height: 15; font-size: xx-small; border: none   }
+-->
+</style>
+<div id="bowling">
+<table cellpadding="0"><tr>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 10 pins</p>
+<table cellpadding="0"><tr>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 0 pins</p>
+<table cellpadding="0"><tr>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 2 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 4 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 6 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 10 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 9 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 1 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 9 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 1 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 10 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 1 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 5 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+109
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">5</td>
+<td class="bdet"></td>
+</tr>
+</table>
+115
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 1 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+109
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">5</td>
+<td class="bdet"></td>
+</tr>
+</table>
+115
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="emptycell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 9 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+109
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">5</td>
+<td class="bdet"></td>
+</tr>
+</table>
+115
+</td>
+<td class="pendingcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">9</td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet"></td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 8 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+109
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">5</td>
+<td class="bdet"></td>
+</tr>
+</table>
+115
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">9</td>
+<td class="bdet"></td>
+</tr>
+</table>
+133
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">8</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 2 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+109
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">5</td>
+<td class="bdet"></td>
+</tr>
+</table>
+115
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">9</td>
+<td class="bdet"></td>
+</tr>
+</table>
+133
+</td>
+<td class="activecell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">8</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+</td>
+</tr></table>
+<p>Rolling... 0 pins</p>
+<table cellpadding="0"><tr>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+12
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">0</td>
+<td class="bdet">2</td>
+<td class="bdet"></td>
+</tr>
+</table>
+14
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">4</td>
+<td class="bdet">6</td>
+<td class="bdet"></td>
+</tr>
+</table>
+34
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+54
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+73
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">9</td>
+<td class="bdet">1</td>
+<td class="bdet"></td>
+</tr>
+</table>
+93
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">10</td>
+<td class="bdet"></td>
+<td class="bdet"></td>
+</tr>
+</table>
+109
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">5</td>
+<td class="bdet"></td>
+</tr>
+</table>
+115
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">1</td>
+<td class="bdet">9</td>
+<td class="bdet"></td>
+</tr>
+</table>
+133
+</td>
+<td class="scoredcell" valign="top">
+<table border="1" width="40">
+<tr>
+<td class="bdet">8</td>
+<td class="bdet">2</td>
+<td class="bdet">0</td>
+</tr>
+</table>
+143
+</td>
+</tr></table>
+</div>
